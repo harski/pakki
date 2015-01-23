@@ -1,0 +1,9 @@
+# ChangeLog for media-video/yle-dl
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*yle-dl-2.5.0-r3 (23 Jan 2015)
+
+  23 Jan 2015; Tuomo Hartikainen <tth@harski.org> +yle-dl-2.5.0-r3.ebuild:
+  Move AdobeHDS.php to /usr/share/
+
