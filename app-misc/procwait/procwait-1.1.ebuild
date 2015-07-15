@@ -1,4 +1,4 @@
-# Copyright 2015 Tuomo Hartikainen <tth@harski.org>
+# Copyright 2015-2015 Tuomo Hartikainen <tth@harski.org>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -15,7 +15,6 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-
 
 src_install() {
 	emake DESTDIR="${D}" PREFIX="${EPREFIX}"/usr install
