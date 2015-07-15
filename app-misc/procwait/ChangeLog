@@ -1,0 +1,7 @@
+# ChangeLog for app-misc/procwait
+# Distributed under the terms of the GNU General Public License v2
+# Copyright 2015-2015 Tuomo Hartikainen <tth@harski.org>
+
+  15 Jul 2015; Tuomo Hartikainen <tth@harski.org> +metadata.xml:
+  Add metadata.xml
+
