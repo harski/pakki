@@ -3,6 +3,9 @@
 # Copyright 2015-2015 Tuomo Hartikainen <tth@harski.org>
 
   18 Jul 2015; Tuomo Hartikainen <tth@harski.org> yle-dl-2.7.2-r1.ebuild:
+  Fix python-single-r1 migration errors
+
+  18 Jul 2015; Tuomo Hartikainen <tth@harski.org> yle-dl-2.7.2-r1.ebuild:
   Define php dependency slot
 
 *yle-dl-2.7.2-r1 (18 Jul 2015)

@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_DEPEND="2"
 PYTHON_COMPAT=(python{2_6,2_7})
 
 inherit python-single-r1
@@ -24,17 +23,17 @@ RDEPEND="${DEPEND}"
 S=${WORKDIR}/aajanki-yle-dl-e9b547b
 
 src_prepare() {
-	python_convert_shebangs -r 2 .
+	python_fix_shebang .
 	sed -i 's|/usr/local/share/yle-dl/AdobeHDS.php|/usr/share/yle-dl/AdobeHDS.php|g' yle-dl
+}
+
+src_compile() {
+	# Nothing to compile
+	return
 }
 
 src_install() {
 	einstall
 	insinto /usr/share/yle-dl
 	doins "${DISTDIR}/AdobeHDS.php"
-}
-
-pkg_setup() {
-	python_pkg_setup
-	python_set_active_version 2
 }
