@@ -1,6 +1,5 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 2015-2015 Tuomo Hartikainen <tth@harski.org>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 PYTHON_DEPEND="2"
@@ -19,7 +18,7 @@ KEYWORDS="~amd64"
 
 DEPEND="dev-python/pycrypto
 	media-video/rtmpdump
-	dev-lang/php[bcmath,curl,simplexml]"
+	dev-lang/php:*[bcmath,curl,simplexml]"
 RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/aajanki-yle-dl-e9b547b
