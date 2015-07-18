@@ -2,6 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # Copyright 2015-2015 Tuomo Hartikainen <tth@harski.org>
 
+  18 Jul 2015; Tuomo Hartikainen <tth@harski.org> yle-dl-2.7.2.ebuild:
+  Style fixes
+
   15 Jul 2015; Tuomo Hartikainen <tth@harski.org> -yle-dl-2.0.2.ebuild,
   -yle-dl-2.0.2-r1.ebuild, -yle-dl-2.1.0.ebuild, -yle-dl-2.3.1.ebuild,
   -yle-dl-2.5.0.ebuild, -yle-dl-2.5.0-r1.ebuild, -yle-dl-2.5.0-r2.ebuild:

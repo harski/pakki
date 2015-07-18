@@ -23,28 +23,15 @@ RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/aajanki-yle-dl-e9b547b
 
-
-src_unpack() {
-	if [ "${A}" != "" ]; then
-		unpack ${A}
-	fi
-}
-
 src_prepare() {
 	python_convert_shebangs -r 2 .
 	sed -i 's|/usr/local/share/yle-dl/AdobeHDS.php|/usr/share/yle-dl/AdobeHDS.php|g' yle-dl
 }
 
-src_compile() {
-	if [ -f Makefile ]; then
-		emake -j1 prefix="${DESTTREE}" || die "emake failed"
-	fi
-}
-
 src_install() {
 	einstall
 	insinto /usr/share/yle-dl
-	doins ${DISTDIR}/AdobeHDS.php
+	doins "${DISTDIR}/AdobeHDS.php"
 }
 
 pkg_setup() {
