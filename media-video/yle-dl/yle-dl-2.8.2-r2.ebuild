@@ -34,4 +34,8 @@ src_compile() {
 
 src_install() {
 	emake prefix="${D}" install
+
+	for doc in COPYING ChangeLog README.{fi,md}; do
+		dodoc ${doc}
+	done
 }
