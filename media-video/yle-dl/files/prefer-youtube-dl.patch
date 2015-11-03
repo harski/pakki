@@ -1,0 +1,11 @@
+--- yle-dl.orig	2015-10-31 23:32:14.510007356 +0200
++++ yle-dl	2015-10-31 23:32:41.440007525 +0200
+@@ -57,7 +57,7 @@
+ 
+ RTMP_SCHEMES = ['rtmp', 'rtmpe', 'rtmps', 'rtmpt', 'rtmpte', 'rtmpts']
+ 
+-DEFAULT_PROTOCOLS = ['hds', 'hds:youtubedl', 'rtmp']
++DEFAULT_PROTOCOLS = ['hds:youtubedl', 'hds', 'rtmp']
+ 
+ # list of all options that require an argument
+ ARGOPTS = ('--rtmp', '-r', '--host', '-n', '--port', '-c', '--socks',
