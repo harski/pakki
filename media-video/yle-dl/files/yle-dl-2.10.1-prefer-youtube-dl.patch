@@ -1,0 +1,13 @@
+Index: yle-dl/yle-dl
+===================================================================
+--- yle-dl.orig/yle-dl
++++ yle-dl/yle-dl
+@@ -52,7 +52,7 @@ AREENA_NG_HTTP_HEADERS = {'User-Agent':
+ 
+ RTMP_SCHEMES = ['rtmp', 'rtmpe', 'rtmps', 'rtmpt', 'rtmpte', 'rtmpts']
+ 
+-DEFAULT_HDS_BACKENDS = ['adobehdsphp', 'youtubedl']
++DEFAULT_HDS_BACKENDS = ['youtubedl', 'adobehdsphp']
+ 
+ # list of all options that require an argument
+ ARGOPTS = ('--rtmp', '-r', '--host', '-n', '--port', '-c', '--socks',

@@ -8,4 +8,9 @@
 	<longdescription lang="en">
 		Download media from Yle Areena.
 	</longdescription>
+	<use>
+		<flag name='adobehds'>Enable downloading streams using AdobeHDS.</flag>
+		<flag name='youtube-dl'>Enable downloading streams using
+		<pkg>net-misc/youtube-dl</pkg></flag>
+	</use>
 </pkgmetadata>
