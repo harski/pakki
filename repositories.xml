@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf8"?>
+
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>pakki</name>
+    <description>Pakki provides harski's custom, miscallaneous ebuilds.</description>
+    <homepage>http://git.harski.org/pakki</homepage>
+    <owner>
+      <name>Tuomo Hartikainen</name>
+      <email>tth@harski.org</email>
+    </owner>
+    <source type="git">git://git.harski.org/pakki</source>
+  </repo>
+</repositories>
