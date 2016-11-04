@@ -1,7 +1,7 @@
 # Copyright 2015-2016 Tuomo Hartikainen <tth@harski.org>
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=6
 PYTHON_COMPAT=(python{2_6,2_7})
 
 inherit eutils
@@ -28,6 +28,7 @@ RDEPEND="
 src_prepare() {
 	python_fix_shebang .
 	sed -i 's|/usr/local/share/yle-dl/AdobeHDS.php|/usr/share/yle-dl/AdobeHDS.php|g' yle-dl
+	eapply_user
 }
 
 src_compile() {
