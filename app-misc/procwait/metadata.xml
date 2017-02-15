@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer>
+	<maintainer type="person">
 		<email>tth@harski.org</email>
 		<name>Tuomo Hartikainen</name>
 	</maintainer>
 	<longdescription lang="en">
-		wait() for a non-child process identified by PID to terminate.
+		Wait for a non-child process identified by PID to terminate.
 	</longdescription>
 </pkgmetadata>
