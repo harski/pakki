@@ -1,4 +1,4 @@
-# Copyright 2015-2015 Tuomo Hartikainen <tth@harski.org>
+# Copyright 2015-2017 Tuomo Hartikainen <tth@harski.org>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -10,7 +10,7 @@ RESTRICT="primaryuri"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
