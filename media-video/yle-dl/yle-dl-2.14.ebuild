@@ -1,4 +1,4 @@
-# Copyright 2015-2016 Tuomo Hartikainen <tth@harski.org>
+# Copyright 2015-2017 Tuomo Hartikainen <tth@harski.org>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -14,7 +14,7 @@ SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.ta
 RESTRICT="primaryuri"
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE="+adobehds +youtube-dl"
 REQUIRED_USE="adobehds"
 
